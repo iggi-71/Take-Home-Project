@@ -15,6 +15,8 @@
 		1825CD01267D2DE300AF8E03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1825CCFF267D2DE300AF8E03 /* LaunchScreen.storyboard */; };
 		1825CD0C267D2DE300AF8E03 /* Take_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825CD0B267D2DE300AF8E03 /* Take_ProjectTests.swift */; };
 		1825CD17267D2DE300AF8E03 /* Take_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825CD16267D2DE300AF8E03 /* Take_ProjectUITests.swift */; };
+		1825CD28267D3AF000AF8E03 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825CD27267D3AEF00AF8E03 /* APIService.swift */; };
+		1825CD2D267D3B0C00AF8E03 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1825CD2C267D3B0C00AF8E03 /* Forecast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1825CD12267D2DE300AF8E03 /* Take_ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Take_ProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1825CD16267D2DE300AF8E03 /* Take_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Take_ProjectUITests.swift; sourceTree = "<group>"; };
 		1825CD18267D2DE300AF8E03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1825CD27267D3AEF00AF8E03 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIService.swift; path = ../../WeatherApp/WeatherApp.playground/Sources/APIService.swift; sourceTree = "<group>"; };
+		1825CD2C267D3B0C00AF8E03 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				1825CCF8267D2DDE00AF8E03 /* ContentView.swift */,
 				1825CCFA267D2DE300AF8E03 /* Assets.xcassets */,
 				1825CCFF267D2DE300AF8E03 /* LaunchScreen.storyboard */,
+				1825CD27267D3AEF00AF8E03 /* APIService.swift */,
+				1825CD2C267D3B0C00AF8E03 /* Forecast.swift */,
 				1825CD02267D2DE300AF8E03 /* Info.plist */,
 				1825CCFC267D2DE300AF8E03 /* Preview Content */,
 			);
@@ -268,7 +274,9 @@
 			files = (
 				1825CCF5267D2DDE00AF8E03 /* AppDelegate.swift in Sources */,
 				1825CCF7267D2DDE00AF8E03 /* SceneDelegate.swift in Sources */,
+				1825CD28267D3AF000AF8E03 /* APIService.swift in Sources */,
 				1825CCF9267D2DDE00AF8E03 /* ContentView.swift in Sources */,
+				1825CD2D267D3B0C00AF8E03 /* Forecast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
