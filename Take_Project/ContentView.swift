@@ -5,6 +5,7 @@
 //  Created by apple on 6/18/21.
 //
 
+import CoreLocation
 import SwiftUI
 
 struct ContentView: View {
